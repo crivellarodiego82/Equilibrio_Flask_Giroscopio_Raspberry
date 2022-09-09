@@ -40,7 +40,7 @@ def stop():
     m4.stop()
     
 def finish():
-	print('Finishing up!')
+	print('Terminato !')
 	GPIO.output(4, False)
 	GPIO.output(17, False)
 	GPIO.output(18, False)
